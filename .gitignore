@@ -60,6 +60,10 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.tsbuildinfo
+
+# Generated ORM client
+backend/src/generated/prisma/
 
 # OS and editor files
 .DS_Store
